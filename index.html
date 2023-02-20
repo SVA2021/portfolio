@@ -2,137 +2,141 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SVA portfolio page" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="apple-mobile-web-app-title" content="SVA">
-  <meta name="application-name" content="SVA">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="./style/style.css">
-  <title>SVA портфолио</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SVA portfolio page"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="SVA">
+    <meta name="application-name" content="SVA">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>SVA портфолио</title>
 </head>
 
 <body>
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
     (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () {(m[i].a = m[i].a || []).push(arguments)};
-      m[i].l = 1 * new Date();
-      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) {return;} }
-      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+            if (document.scripts[j].src === r) {
+                return;
+            }
+        }
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
     })
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
     ym(92096117, "init", {
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
     });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/92096117" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
-  <!-- /Yandex.Metrika counter -->
-  <header class="header">
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/92096117" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<header class="header">
     <div class="header__logo logo">
-      <span class="logo__item">S</span>
-      <span class="logo__item">V</span>
-      <span class="logo__item">A</span>
+        <span class="logo__item">S</span>
+        <span class="logo__item">V</span>
+        <span class="logo__item">A</span>
     </div>
     <!-- <button class="header__btn" id="lang">ru</button> -->
-  </header>
-  <main class="main">
+</header>
+<main class="main">
     <section class="version" id="version">
-      <div class="version__item">
-        <a href="https://sva2021.github.io/MyPortfolio" class="version__link" target="_blank"
-          rel="noopener noreferrer">
-          <img src="./img/HTML5_logo.svg" alt="html5" class="version__img">
-        </a>
-        <div class="version__text">
-          <p class="version__caption">html5</p>
-          <p class="version__date active">выполнено</p>
+        <div class="version__item">
+            <a href="https://sva2021.github.io/MyPortfolio" class="version__link" target="_blank"
+               rel="noopener noreferrer">
+                <img src="./img/HTML5_logo.svg" alt="html5" class="version__img">
+            </a>
+            <div class="version__text">
+                <p class="version__caption">html5</p>
+                <p class="version__date active">выполнено</p>
+            </div>
         </div>
-      </div>
-      <div class="version__item">
-        <a href="" class="version__link link__inprogress" onclick="return false;" target="_blank"
-          rel="noopener noreferrer">
-          <img src="./img/nextjs.svg" alt="html5" class="version__img">
-        </a>
-        <div class="version__text">
-          <p class="version__caption">Next.js</p>
-          <p class="version__date future">заморожен</p>
-<!--
-          <p class="version__date inprogress">в разработке <br> релиз 05.02.23</p>
--->
+        <div class="version__item">
+            <a href="https://portfolio-ng-sva2021.vercel.app/" class="version__link" target="_blank"
+               rel="noopener noreferrer">
+                <img src="./img/angular.svg" alt="angular" class="version__img">
+            </a>
+            <div class="version__text">
+                <p class="version__caption">angular</p>
+                <p class="version__date active">выполнено</p>
+            </div>
         </div>
-      </div>
-      <div class="version__item">
-        <a href="" class="version__link link__future" onclick="return false;" target="_blank" rel="noopener noreferrer">
-          <img src="./img/angular.svg" alt="html5" class="version__img">
-        </a>
-        <div class="version__text">
-          <p class="version__caption">angular</p>
-          <p class="version__date future">заморожен</p>
-<!--
-          <p class="version__date future">запланировано <br> релиз 01.03.23</p>
--->
+        <div class="version__item">
+            <a href="" class="version__link link__inprogress" onclick="return false;" target="_blank"
+               rel="noopener noreferrer">
+                <img src="./img/nextjs.svg" alt="Next.js" class="version__img">
+            </a>
+            <div class="version__text">
+                <p class="version__caption">Next.js</p>
+                <!--                <p class="version__date future">заморожен</p>-->
+                <p class="version__date inprogress">в разработке <br> релиз 05.03.23</p>
+            </div>
         </div>
-      </div>
-      <div class="version__item">
-        <a href="" class="version__link link__future" onclick="return false;" target="_blank" rel="noopener noreferrer">
-          <img src="./img/vue.svg" alt="html5" class="version__img">
-        </a>
-        <div class="version__text">
-          <p class="version__caption">vue</p>
-          <p class="version__date future">заморожен</p>
-<!--          <p class="version__date future">запланировано <br> релиз 01.04.23</p>-->
+        <div class="version__item">
+            <a href="" class="version__link link__future" onclick="return false;" target="_blank"
+               rel="noopener noreferrer">
+                <img src="./img/vue.svg" alt="vue" class="version__img">
+            </a>
+            <div class="version__text">
+                <p class="version__caption">vue</p>
+                <p class="version__date future">заморожен</p>
+                <!--          <p class="version__date future">запланировано <br> релиз 01.04.23</p>-->
+            </div>
         </div>
-      </div>
     </section>
     <section class="about" id="about">
-      Проект портфолио выполнен с использованием разных технологий, выберите интересующую Вас.
-      <br>
-      Автоматичекий редирект на базовую версию через
-      <span id="timer" class="timer"></span> сек.
+        Проект портфолио выполнен с использованием разных технологий, выберите интересующую Вас.
+        <br>
+        Автоматичекий редирект на базовую версию через
+        <span id="timer" class="timer"></span> сек.
     </section>
-  </main>
-  <footer class="footer">
+</main>
+<footer class="footer">
     <ul class="footer__social social">
-      <li class="social__item">
-        <a href="https://t.me/SVA_1985" class="social__link" target="_blank" rel="noopener noreferrer">telegram</a>
-      </li>
-      <li class="social__item">
-        <a href="https://discordapp.com/users/842765911681400894" class="social__link" target="_blank"
-          rel="noopener noreferrer">discord</a>
-      </li>
-      <li class="social__item">
-        <a href="https://github.com/SVA2021" class="social__link" target="_blank" rel="noopener noreferrer">github</a>
-      </li>
-      <li class="social__item">
-        <a href="viber://chat?number=%2B79966236425" class="social__link" target="_blank"
-          rel="noopener noreferrer">viber</a>
-      </li>
-      <li class="social__item">
-        <a href="tel:+79966236425" class="social__link" target="_blank" rel="noopener noreferrer">phone</a>
-      </li>
-      <!-- <li class="social__item">
-        <a href="mailto:sofronov.vit@gmail.com" class="social__link" target="_blank" rel="noopener noreferrer">e-mail</a>
-      </li>
-      <li class="social__item">
-        <a href="https://togliatti.hh.ru/applicant/resumes/view?resume=e30eb6d2ff0983faee0039ed1f62784758716e"
-          class="social__link" target="_blank" rel="noopener noreferrer">hh.ru</a>
-      </li> -->
+        <li class="social__item">
+            <a href="https://t.me/SVA_1985" class="social__link" target="_blank" rel="noopener noreferrer">telegram</a>
+        </li>
+        <li class="social__item">
+            <a href="https://discordapp.com/users/842765911681400894" class="social__link" target="_blank"
+               rel="noopener noreferrer">discord</a>
+        </li>
+        <li class="social__item">
+            <a href="https://github.com/SVA2021" class="social__link" target="_blank"
+               rel="noopener noreferrer">github</a>
+        </li>
+        <li class="social__item">
+            <a href="viber://chat?number=%2B79966236425" class="social__link" target="_blank"
+               rel="noopener noreferrer">viber</a>
+        </li>
+        <li class="social__item">
+            <a href="tel:+79966236425" class="social__link" target="_blank" rel="noopener noreferrer">phone</a>
+        </li>
+        <!-- <li class="social__item">
+          <a href="mailto:sofronov.vit@gmail.com" class="social__link" target="_blank" rel="noopener noreferrer">e-mail</a>
+        </li>
+        <li class="social__item">
+          <a href="https://togliatti.hh.ru/applicant/resumes/view?resume=e30eb6d2ff0983faee0039ed1f62784758716e"
+            class="social__link" target="_blank" rel="noopener noreferrer">hh.ru</a>
+        </li> -->
     </ul>
     <p class="footer__trademark">SVA 2023<sup class="special__mark">©</sup></p>
-  </footer>
-  <script src="./js/script.js"></script>
+</footer>
+<script src="./js/script.js"></script>
 </body>
 
 </html>
