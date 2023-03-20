@@ -12,12 +12,6 @@
 	}
 }
 
-@mixin media-md {
-	@media (min-width: #{$mq-md}) {
-		@content;
-	}
-}
-
 @mixin media-lg {
 	@media (min-width: #{$mq-lg}) {
 		@content;
