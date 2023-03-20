@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
+<!--    <link rel="manifest" href="./site.webmanifest">-->
     <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
     <meta name="apple-mobile-web-app-title" content="SVA">
     <meta name="application-name" content="SVA">
@@ -57,7 +57,7 @@
 <main class="main">
     <section class="version" id="version">
         <div class="version__item">
-            <a href="https://sva2021.github.io/MyPortfolio" class="version__link" >
+            <a href="https://sva2021.github.io/MyPortfolio" class="version__link">
                 <img src="./img/HTML5_logo.svg" alt="html5" class="version__img">
             </a>
             <div class="version__text">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="version__item">
-            <a href="https://portfolio-ng-sva2021.vercel.app/" class="version__link" >
+            <a href="https://portfolio-ng-sva2021.vercel.app/" class="version__link">
                 <img src="./img/angular.svg" alt="angular" class="version__img">
             </a>
             <div class="version__text">
@@ -75,31 +75,37 @@
             </div>
         </div>
         <div class="version__item">
-            <a href="" class="version__link link__inprogress" onclick="return false;" >
+            <a href="https://github.com/SVA2021/portfolioNext/tree/dev" class="version__link link__inprogress">
                 <img src="./img/nextjs.svg" alt="Next.js" class="version__img">
             </a>
             <div class="version__text">
                 <p class="version__caption">Next.js</p>
-                <!--                <p class="version__date future">заморожен</p>-->
-                <p class="version__date inprogress">в разработке <br> релиз 20.03.23</p>
+                <p class="version__date inprogress">в разработке <br> релиз 27.03.23</p>
             </div>
         </div>
         <div class="version__item">
-            <a href="" class="version__link link__future" onclick="return false;" >
+            <a href="" class="version__link link__future" onclick="return false;">
                 <img src="./img/vue.svg" alt="vue" class="version__img">
             </a>
             <div class="version__text">
                 <p class="version__caption">vue</p>
-                <p class="version__date future">заморожен</p>
-                <!--          <p class="version__date future">запланировано <br> релиз 01.04.23</p>-->
+                <p class="version__date future">запланировано <br> релиз 30.04.23</p>
             </div>
         </div>
     </section>
     <section class="about" id="about">
-        Проект портфолио выполнен с использованием разных технологий, выберите интересующую Вас.
-        <br>
-        Автоматичекий редирект на базовую версию через
-        <span id="timer" class="timer"></span> сек.
+        <p class="about__text">
+            <strong class="about__choose">Выберите интересующую Вас версию.</strong>
+        </p>
+        <p class="about__text">
+            Портфолио выполено в 4 версиях: базовая чистая HTML и 3 на популярных фреймворках.
+            Это сделано для сравнительной оценки выполнения типовых задач фронтенда, таких как
+            роутинг, работа с формами, работа со сторонними сервисами, компнонентный подход, во фреймворк версиях также
+            релизована CRM система для менеджмента контента страницы проектов.
+        </p>
+        <p class="about__text">
+            Автоматический редирект на базовую HTML версию через <span id="timer" class="timer"></span> сек.
+        </p>
     </section>
 </main>
 <footer class="footer">
